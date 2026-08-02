@@ -3,7 +3,17 @@ using namespace std;
 
 void sort(int arr[], int size)
 {
-
+    for(int i = 0; i < size; i++)
+    {
+        // j从0开始，相邻比较
+        for(int j = 0; j < size - 1 - i; j++)
+        {
+            if(arr[j] > arr[j+1])
+            {
+                swap(arr[j], arr[j+1]);
+            }
+        }
+    }
 }
 
 int main()
