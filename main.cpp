@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// 冒泡排序
 void sort(int arr[], int size)
 {
     for(int i = 0; i < size; i++)
