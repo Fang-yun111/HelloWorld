@@ -14,7 +14,7 @@ void sort(int arr[], int size)
             {
                 swap(arr[j], arr[j+1]);
             }
-            // 备注二
+            // 备注一
         }
     }
 }
